@@ -1,0 +1,59 @@
+*,
+*:after,
+*:before {
+  font-size: calc(7px + 3 * (100vw / 1920));
+  font-family: "Inter", sans-serif !important;
+  box-sizing: border-box;
+  color: black;
+}
+body {
+  background: linear-gradient(
+    135deg,
+    hsla(145, 83%, 74%, 1) 0%,
+    hsla(204, 77%, 76%, 1) 100%
+  );
+}
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 3rem;
+  color: gray;
+}
+thead {
+  th {
+    border-bottom: 1px solid dimgray;
+    font-size: 3rem;
+    padding: 1rem 1rem 1rem 0;
+    min-width: 30rem;
+  }
+}
+main {
+  padding: 3rem;
+}
+
+tbody {
+  & > tr:nth-child(even) {
+  }
+}
+tr {
+  border-bottom: 1px solid lightgray !important;
+}
+td {
+  border-bottom: 1px solid lightgray;
+  line-height: 3rem;
+
+  font-size: 2rem;
+  //padding: 0.5rem 0;
+}
+.scroll-page {
+  overflow: auto;
+  max-height: 50rem;
+  height: 50rem;
+}
+.panel {
+  padding: 2rem 0;
+}
+.select {
+  width: 8rem !important;
+}

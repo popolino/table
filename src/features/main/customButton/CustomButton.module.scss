@@ -1,0 +1,64 @@
+.icon,
+.icon-active {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  &:before {
+    opacity: 0;
+    content: "";
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    position: absolute;
+    background: mediumaquamarine;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
+  &:hover:before {
+    opacity: 0.1;
+    //opacity: 1;
+  }
+}
+.disabled{
+  cursor: default;
+  opacity: 0.3;
+}
+.ripples {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  div {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: ripple 0.4s;
+    position: absolute;
+    opacity: 0;
+    content: "";
+    z-index: -1;
+    background: mediumaquamarine;
+    border-radius: 50%;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}

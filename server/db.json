@@ -1,0 +1,156 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "name": "Bohemian Rhapsody",
+      "singer": "Queen",
+      "duration": "5:55"
+    },
+    {
+      "id": "2",
+      "name": "Love Will Tear Us Apart",
+      "singer": "Joy Division",
+      "duration": "3:25"
+    },
+    {
+      "id": "3",
+      "name": "I Feel Love",
+      "singer": "Donna Summer",
+      "duration": "5:53"
+    },
+    {
+      "id": "4",
+      "name": "How Soon Is Now?",
+      "singer": "The Smiths",
+      "duration": "3:53"
+    },
+    {
+      "id": "5",
+      "name": "Common People",
+      "singer": "Pulp",
+      "duration": "4:17"
+    },
+    {
+      "id": "6",
+      "name": "I Bet You Look Good on the Dancefloor",
+      "singer": "Arctic Monkeys",
+      "duration": "2:54"
+    },
+    {
+      "id": "7",
+      "name": "Blue Monday",
+      "singer": "New Order",
+      "duration": "7:23"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "name": "The Wolf of Wall Street",
+      "grade": 7.8,
+      "duration": "3h"
+    },
+    {
+      "id": "2",
+      "name": "Forrest Gump",
+      "grade": 8.8,
+      "duration": "2h 19m"
+    },
+    {
+      "id": "3",
+      "name": "Mad Max: Fury Road",
+      "grade": 7.4,
+      "duration": "2h 17m"
+    },
+    {
+      "id": "4",
+      "name": "The Godfather",
+      "grade": 8.6,
+      "duration": "3h 22m"
+    },
+    {
+      "id": "5",
+      "name": "Interstellar",
+      "grade": 7.5,
+      "duration": "2h 49m"
+    },
+    {
+      "id": "6",
+      "name": "Pulp Fiction",
+      "grade": 6.8,
+      "duration": "2h 34m"
+    },
+    {
+      "id": "7",
+      "name": "Titanic",
+      "grade": 8.5,
+      "duration": "3h 14m"
+    },
+    {
+      "id": "8",
+      "name": "The Shawshank Redemption",
+      "grade": 9.1,
+      "duration": "2h 22m"
+    },
+    {
+      "id": "9",
+      "name": "The Terminator",
+      "grade": 8.6,
+      "duration": "1h 47m"
+    },
+    {
+      "id": "10",
+      "name": "The Wolf of Wall Street",
+      "grade": 7.8,
+      "duration": "3h"
+    },
+    {
+      "id": "11",
+      "name": "Forrest Gump",
+      "grade": 8.8,
+      "duration": "2h 19m"
+    },
+    {
+      "id": "13",
+      "name": "Mad Max: Fury Road",
+      "grade": 7.4,
+      "duration": "2h 17m"
+    },
+    {
+      "id": "14",
+      "name": "The Godfather",
+      "grade": 8.6,
+      "duration": "3h 22m"
+    },
+    {
+      "id": "15",
+      "name": "Interstellar",
+      "grade": 7.5,
+      "duration": "2h 49m"
+    },
+    {
+      "id": "16",
+      "name": "Pulp Fiction",
+      "grade": 6.8,
+      "duration": "2h 34m"
+    },
+    {
+      "id": "17",
+      "name": "Titanic",
+      "grade": 8.5,
+      "duration": "3h 14m"
+    },
+    {
+      "id": "18",
+      "name": "The Shawshank Redemption",
+      "grade": 9.1,
+      "duration": "2h 22m"
+    },
+    {
+      "id": "19",
+      "name": "The Terminator",
+      "grade": 8.6,
+      "duration": "1h 47m"
+    }
+  ]
+}
